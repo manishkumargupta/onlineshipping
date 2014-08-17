@@ -19,6 +19,7 @@ Onlineshopping::Application.routes.draw do
   get '/eid'=>'staticpage#eid'
   get '/valentineday'=>'staticpage#valentineday'
   get '/christmas'=> 'staticpage#christmas'
+  get '/sitemap' => 'staticpage#sitemap'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
